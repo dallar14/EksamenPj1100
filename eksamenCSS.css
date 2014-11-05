@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.big_wrapper {
+    width: 90%;
+    margin: 2% auto;
+}
+.bakgrunn {
+    width: 100%;
+}
+.bildePaaKart {
+    width: 10%;
+    position: absolute;
+    left: 0%;
+    top: 15%;
+}
+.bildePaaKart:hover {
+    transition-property: width;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    
+    width: 20%;
+}
+
